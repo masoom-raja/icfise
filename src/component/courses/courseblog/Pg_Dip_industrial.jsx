@@ -1,7 +1,7 @@
 import Navbar from "../../header";
 import Footer from "../../footer";
 import SidebarCourses from '../sidebarCourses'
-import course from "../../../asset/basic-scaff.jpg"
+import course from "../../../asset/icfise-logo.jpg"
 import Vdo from "../../../assets/vdo.mp4"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
