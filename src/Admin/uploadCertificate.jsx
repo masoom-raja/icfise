@@ -39,7 +39,7 @@ const [success, setSuccess] = useState("");
   const checkCertificateExists = async (id) => {
   try {
     const res = await axios.get(
-      `http://localhost:8000/api/certificate/getCertificateById/${id}`
+      `https://icfise-backend-2.onrender.com/api/certificate/getCertificateById/${id}`
     );
 
     return true; // ✅ exists
@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
     // ✅ Create
    const res = await axios.post(
-  "http://localhost:8000/api/certificate/createCertificate",
+  "https://icfise-backend-2.onrender.com/api/certificate/createCertificate",
   formData,
   {
     headers: {

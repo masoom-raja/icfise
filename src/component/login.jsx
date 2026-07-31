@@ -25,7 +25,7 @@ export default function Login() {
       setError("");
 
       const res = await axios.post(
-        "http://localhost:8000/api/user/login",
+        "https://icfise-backend-2.onrender.com/api/user/login",
         form
       );
 

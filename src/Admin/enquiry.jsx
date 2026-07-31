@@ -14,7 +14,7 @@ const loadEnquiries = async () => {
 
   try {
     const res = await axios.get(
-      "http://localhost:8000/api/enquiry/getEnquiry" ,{
+      "https://icfise-backend-2.onrender.com/api/enquiry/getEnquiry" ,{
   headers: {
     Authorization: `Bearer ${token}`,
   }

@@ -8,14 +8,13 @@ export default function downloadCertificate() {
       const [data, setData] = useState(null);
 
         const handleDownload = async (e) => {
-    console.log("Download:", downloadId);
 
       setError("");
     setData(null);
 
     try {
       const res = await axios.get(
-        `http://localhost:8000/api/certificate/getCertificateById/${downloadId}`
+        `https://icfise-backend-2.onrender.com/api/certificate/getCertificateById/${downloadId}`
       );
       setData(res.data.data);
     } catch (error) {

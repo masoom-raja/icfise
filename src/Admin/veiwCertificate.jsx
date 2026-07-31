@@ -15,7 +15,7 @@ export default function ViewCertificates() {
 
       try {
     const res = await axios.get(
-      "http://localhost:8000/api/certificate/getcertificate",{
+      "https://icfise-backend-2.onrender.com/api/certificate/getcertificate",{
   headers: {
     Authorization: `Bearer ${token}`,
   },
@@ -46,7 +46,7 @@ export default function ViewCertificates() {
     setDeleting(id); // 👉 show loading on that row
 
     const res = await axios.delete(
-      `http://localhost:8000/api/certificate/deleteCertificate/${id}`,{
+      `https://icfise-backend-2.onrender.com/api/certificate/deleteCertificate/${id}`,{
   headers: {
     Authorization: `Bearer ${token}`,
   },

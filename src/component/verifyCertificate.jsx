@@ -10,10 +10,9 @@ export default function verifyCertificate() {
   const handleVerify = async () => {
     setError("");
     setData(null);
-    console.log("hi",verifyId)
     try {
       const res = await axios.get(
-        `http://localhost:8000/api/certificate/getCertificateById/${verifyId}`,
+        `https://icfise-backend-2.onrender.com/api/certificate/getCertificateById/${verifyId}`,
       );
       setData(res.data.data);
     } catch (error) {

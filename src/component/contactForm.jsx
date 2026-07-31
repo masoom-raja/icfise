@@ -28,7 +28,7 @@ export default function contactForm() {
     try{
 
        const res = await axios.post(
-        "http://localhost:8000/api/enquiry/createEnquiry", // your backend endpoint
+        "https://icfise-backend-2.onrender.com/api/enquiry/createEnquiry", // your backend endpoint
         formData
       );
        console.log(res)
