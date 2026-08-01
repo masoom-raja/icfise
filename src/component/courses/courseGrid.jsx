@@ -1,11 +1,11 @@
 import { Link } from "wouter";
-import dip_industrial from "../../assets/dip_industrial.jpeg";
+import dip_industrial from "../../asset/dip_in_fire.jpg";
 import dip_construction from "../../asset/dip-in-construction.jpg"
 import Adv_dip from "../../asset/advance-diploma-industrial.jpg"
 import pg_dip_industrial from "../../asset/pg-diploma-industrial.jpg"
-import pg_dip_fire from "../../assets/Pg_dip_fire.jpeg"
+import pg_dip_fire from "../../asset/pg_dp_in_fire.jpg"
 import iosh from "../../asset/IOSH.jpg"
-import confind from "../../assets/confinded_space.jpeg"
+import confind from "../../asset/confined_space.jpg"
 import osha from "../../asset/osha-30h.jpg"
 import first_aid from "../../asset/first-aid-cpr.jpg"
 import basic_scaf from "../../asset/basic-scaff.jpg"

@@ -1,14 +1,14 @@
 import Navbar from "../../header";
 import Footer from "../../footer";
 import SidebarCourses from '../sidebarCourses'
-import course from "../../../assets/Pg_dip_fire.jpeg"
+import course from "../../../asset/pg_dp_in_fire.jpg"
 import Vdo from "../../../assets/vdo.mp4"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import ContactFrom from "../../contactForm";
 
 export default function PgDiplomafire() {
-    const phone ="+917970967389"
+    const phone ="+918699565748"
       const videos = [
         { url: Vdo },
         { url: Vdo },

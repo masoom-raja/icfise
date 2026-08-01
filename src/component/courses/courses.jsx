@@ -7,40 +7,46 @@ import Footer from "../footer";
 import homeImg from "../../assets/about.jpg";
 import bgImg from "../../assets/fireSafety.jpg";
 import CourseGrid from "./courseGrid";
-
+import nausad from '../../asset/Nausad_ali.jpg'
+import rehan from '../../asset/Rehan_fazal.jpg'
+import talib from '../../asset/md_Talib.jpg'
+import usman from '../../asset/usman-ali.jpg'
+import sunny from '../../asset/Sunny Raja.jpg'
+import upper from '../../asset/upper-banner.jpg'
+import course_brocher from '../../asset/course-broucher.jpg'
 
 export default function Courses() {
  
   const students = [
     {
-      name: "Rahul Kumar",
+      name: "Naushad Ali",
       role: "Safety Officer",
-      company: "L&T Construction",
-      image: homeImg,
+      company: "M S Arurag Enterprises",
+      image: nausad,
     },
     {
-      name: "Amit Verma",
-      role: "HSE Engineer",
-      company: "Tata Projects",
-      image: homeImg,
+      name: "Rehan Fazal",
+      role: "Safety Officer",
+      company: "Stencil Engineering PVT LTD",
+      image: rehan,
     },
     {
-      name: "Priya Singh",
+      name: "Md Talib",
       role: "Safety Supervisor",
-      company: "Reliance Industries",
-      image: homeImg,
+      company: "Sam India PVT LTD",
+      image: talib,
     },
     {
-      name: "Priya Singh",
-      role: "Safety Supervisor",
-      company: "Reliance Industries",
-      image: homeImg,
+      name: "Usman Ali",
+      role: "Safety Engineer",
+      company: "Adani Power Plant",
+      image: usman,
     },
     {
-      name: "Priya Singh",
+      name: "Sunny Raja",
       role: "Safety Supervisor",
-      company: "Reliance Industries",
-      image: homeImg,
+      company: "Adani Power Plant",
+      image: sunny,
     },
   ];
 
@@ -221,7 +227,12 @@ export default function Courses() {
             {/* Right Image */}
             <div className="relative sm:h-90  sm:min-h-90 lg:min-h-screen overflow-hidden group sm:pt-10">
               <img
-                src={homeImg}
+                src={upper}
+                alt="Safety image"
+                className="p-2 sm:w-140 sm:h-140 lg:h-fit object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+               <img
+                src={course_brocher}
                 alt="Safety image"
                 className="p-2 sm:w-140 sm:h-140 lg:h-fit object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -256,12 +267,13 @@ export default function Courses() {
                   methods, ICFISE prepares students for successful careers with
                   strong placement support.
                  <b> <br />
-                  Address: F-96, Main Kalindi Kunj Road, Near Jamia
-                  Co-Operative Bank, New Delhi – 110025
+                   Main Branch - Main Road Basantpur,
+Umashankar Complex (Near Machhli market),
+Siwan Bihar,841406
                   <br />
-                  Contact: +91 79709 67389
+                  Contact: +91 86995 65748
                   <br />
-                  Email: asr.28ali@gmail.com
+                  Email: icfisehse@gmail.com
                   </b>
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">

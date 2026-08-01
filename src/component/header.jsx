@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Menu, X,Phone,UserCog } from "lucide-react";
-import logo from '../asset/icfise-logo.jpg'
+import logo from '../asset/icfise-logo-new.png'
 
 
 
@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <nav className="sticky top-0 z-50 bg-[#0B3C5D] border-b border-gray-200 shadow-sm text-white">
       <div className="container mx-auto px-4 py-2">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-1">
 
           {/* Logo */}
           {/* <Link href="/" className="flex items-center gap-2 group">
@@ -36,7 +36,7 @@ export default function Header() {
   <img
     src={logo}
     alt="logo"
-    className="h-14 w-14 sm:h-12 sm:w-14 object-contain "
+    className="h-16 w-16 sm:h-18 sm:w-18 object-contain"
   />
 
   <span className="text-2xl sm:text-3xl font-bold hidden sm:block">

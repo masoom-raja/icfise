@@ -10,6 +10,7 @@ import Yousuf from '../asset/yousuf-ali.jpg'
 import irfan from '../asset/irfan-alam.jpg'
 import imran from '../asset/imran-ali.jpg'
 import rohit from '../asset/rohit-kumar.jpg'
+import amzad from '../asset/amzad_ali.jpg'
 
 
 export default function Hero() {
@@ -21,10 +22,10 @@ export default function Hero() {
     image: Yousuf,
   },
   {
-    name: "Anwar Ansari",
+    name: "Amzad Ali",
     role: "HSE Engineer",
     company: "Adani power plant",
-    image: homeImg,
+    image: amzad,
   },
   {
     name: "Irfan Ali",
@@ -70,7 +71,7 @@ export default function Hero() {
       rating: 5,
     },
     {
-      name: "Anwar Ansari",
+      name: "Amzad Ansari",
       role: "HSE Engineer",
       text: "Highly professional trainers and industry-relevant curriculum. The institute focuses on real-world safety practices which made me confident during interviews.",
       rating: 5,
@@ -359,7 +360,7 @@ export default function Hero() {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="font-display text-4xl font-bold mb-2">
-                Our Placed Students
+                Our Top Placed Students
               </h2>
               <p className="text-xl text-gray-300 mb-2">
                 Successfully placed in top companies

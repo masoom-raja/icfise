@@ -30,17 +30,7 @@ const loadEnquiries = async () => {
     console.log(err);
 
     // fallback demo data
-    const demoData = [
-      {
-        id: 1,
-        name: "Rahul Kumar",
-        email: "rahul@gmail.com",
-        phone: "9876543210",
-        course: "Fire Safety",
-        message: "I want to know course duration",
-        status: "pending",
-      },
-    ];
+  
 
   } finally {
     setLoading(false);

@@ -42,9 +42,9 @@ Ready to build your career in safety management? We’re here to guide you. Cont
                         Institute Address
                       </h3>
                       <p className="text-gray-700 text-sm">
-                        F-96, Main Kalindi Kunj Road<br />
-                        Near Jamia Co-Operative Bank<br />
-                         New Delhi – 110025 India
+                       Main Road Basantpur<br />
+                        Umashankar Complex (Near Machhali Market)<br />
+                         Siwan Bihar 841406
                       </p>
                     </div>
                   </div>
@@ -57,7 +57,7 @@ Ready to build your career in safety management? We’re here to guide you. Cont
                         Phone
                       </h3>
                       <a href="tel:+919876543210" className="text-gray-700 hover:text-[#d97706] transition-colors font-semibold">
-                        +91 79709 67389
+                        +91 86995 65748
                       </a>
                       <p className="text-gray-600 text-sm mt-1">Available Monday To Saturday</p>
                     </div>
@@ -71,7 +71,7 @@ Ready to build your career in safety management? We’re here to guide you. Cont
                         Email
                       </h3>
                       <a href="mailto:info@buildcoreconstruction.com" className="text-gray-700 hover:text-[#d97706] transition-colors font-semibold">
-                        asr.28ali@gmail.com
+                        icfisehse@gmail.com
                       </a>
                       <p className="text-gray-600 text-sm mt-1">Response within 24 hours</p>
                     </div>
@@ -86,7 +86,7 @@ Ready to build your career in safety management? We’re here to guide you. Cont
                       </h3>
                       <p className="text-gray-700 text-sm">
                         Monday – Saturday<br />
-                        9:00 AM – 6:00 PM 
+                        8:00 AM – 6:00 PM 
                       </p>
                     </div>
                   </div>

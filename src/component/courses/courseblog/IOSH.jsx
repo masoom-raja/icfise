@@ -1,14 +1,14 @@
 import Navbar from "../../header";
 import Footer from "../../footer";
 import SidebarCourses from '../sidebarCourses'
-import course from "../../../assets/IOSH.jpeg"
+import course from "../../../asset/IOSH.jpg"
 import Vdo from "../../../assets/vdo.mp4"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import ContactFrom from "../../contactForm";
 
 export default function IOSH() {
-    const phone ="+917970967389"
+    const phone ="+918699565748"
       const videos = [
         { url: Vdo },
         { url: Vdo },
@@ -179,7 +179,7 @@ export default function IOSH() {
               <div className="py-2"></div>
                             <ContactFrom  />
 
-                  <p className="text-2xl text-center my-4 text-[#1e3a5f]">Our Placed Student</p>
+                  {/* <p className="text-2xl text-center my-4 text-[#1e3a5f]">Our Placed Student</p>
                 <div className="flex bg-gradient-to-br from-[#f9fafb] to-[#f3f4f6] rounded-lg border border-gray-200 hover:border-[#d97706]/50 hover:shadow-lg transition-all duration-300">                
                                     <Swiper
                                       spaceBetween={20}
@@ -204,7 +204,7 @@ export default function IOSH() {
                                         </SwiperSlide>
                                       ))}
                                     </Swiper>
-                                  </div>
+                                  </div> */}
 
     </section>
   

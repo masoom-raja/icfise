@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Mail, Phone, MapPin,Youtube, Instagram, Linkedin  } from "lucide-react";
-import logo from '../assets/logo_nise.png'
+import logo from '../asset/icfise-logo-new.png'
 
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+              <div className="w-18 h-18 rounded-lg flex items-center justify-center">
                 <img src={logo} alt="logo" />
               </div>
               <span className="font-display text-xl font-bold">ICFISE</span>
@@ -68,21 +68,21 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#d97706] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-300 text-sm">
-                  F-96, Main Kalindi Kunj Road,
-Near Jamia Co-Operative Bank,
-New Delhi – 110025
+                  Main Branch - Main Road Basantpur,
+Umashankar Complex (Near Machhli market),
+Siwan Bihar,841406
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#d97706] flex-shrink-0" />
                 <a href="tel:+919876543210" className="text-gray-300 hover:text-[#d97706] transition-colors text-sm">
-                  +91 79709 67389
+                  +91 86995 65748
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#d97706] flex-shrink-0" />
                 <a href="mailto:info@buildcoreconstruction.com" className="text-gray-300 hover:text-[#d97706] transition-colors text-sm">
-                  asr.28ali@gmail.com
+                  icfisehse@gmail.com
                 </a>
               </div>
             </div>

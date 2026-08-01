@@ -70,11 +70,12 @@ export default function CertificateSection() {
                         Institute Address
                       </h3>
                       <p className="text-gray-700 text-sm">
-                        F-96, Main Kalindi Kunj Road
+                        Main Road Basantpur
+                        
                         <br />
-                        Near Jamia Co-Operative Bank
+                        UmaShanker Complex, (near machhali markert)
                         <br />
-                        New Delhi – 110025 India
+                        Siwan, Bihar 841406
                       </p>
                     </div>
                   </div>
@@ -90,7 +91,7 @@ export default function CertificateSection() {
                         href="tel:+919876543210"
                         className="text-gray-700 hover:text-[#d97706] transition-colors font-semibold"
                       >
-                        +91 79709 67389
+                        +91 86995 65748
                       </a>
                       <p className="text-gray-600 text-sm mt-1">
                         Available Monday To Saturday
@@ -109,7 +110,7 @@ export default function CertificateSection() {
                         href="mailto:info@buildcoreconstruction.com"
                         className="text-gray-700 hover:text-[#d97706] transition-colors font-semibold"
                       >
-                        asr.28ali@gmail.com
+                        icfisehse@gmail.com
                       </a>
                       <p className="text-gray-600 text-sm mt-1">
                         Response within 24 hours
@@ -127,14 +128,14 @@ export default function CertificateSection() {
                       <p className="text-gray-700 text-sm">
                         Monday – Saturday
                         <br />
-                        9:00 AM – 6:00 PM
+                        8:00 AM – 6:00 PM
                       </p>
                     </div>
                   </div>
                   
-                  {/* Feedback Student */}
-                  <h2 className="text-3xl text-center text-[#1e3a5f] text-bold" >Our Happy Student</h2>
-                  <div className="flex bg-gradient-to-br from-[#f9fafb] to-[#f3f4f6] rounded-lg border border-gray-200 hover:border-[#d97706]/50 hover:shadow-lg transition-all duration-300">                 
+                  {/* Feedback Student
+                  <h2 className="text-3xl text-center text-[#1e3a5f] text-bold" >Our Happy Student</h2> */}
+                  {/* <div className="flex bg-gradient-to-br from-[#f9fafb] to-[#f3f4f6] rounded-lg border border-gray-200 hover:border-[#d97706]/50 hover:shadow-lg transition-all duration-300">                 
                     <Swiper
                       spaceBetween={20}
                       slidesPerView={1.1} // mobile
@@ -158,7 +159,7 @@ export default function CertificateSection() {
                         </SwiperSlide>
                       ))}
                     </Swiper>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* popular courses */}
